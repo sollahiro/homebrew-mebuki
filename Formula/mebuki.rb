@@ -1,9 +1,9 @@
 class Mebuki < Formula
   desc "投資回避に特化した投資分析ツール"
   homepage "https://github.com/sollahiro/mebuki"
-  url "https://github.com/sollahiro/mebuki/releases/download/v2.19.5/mebuki-macos-arm64.tar.gz"
-  version "2.19.5"
-  sha256 "4302cad5aa3ec2d228d1eaac8d69af1e6e98f9e17a5ddb51f765ba0fe2bf18a8" # Updated by CI
+  url "https://github.com/sollahiro/mebuki/releases/download/v2.20.0/mebuki-macos-arm64.tar.gz"
+  version "2.20.0"
+  sha256 "9f5039766c1a5837e89ef29e038330d157ca0b024c2d53b514749780a475d732" # Updated by CI
 
   def install
     bin.install "mebuki"
