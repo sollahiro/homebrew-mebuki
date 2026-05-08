@@ -1,9 +1,9 @@
 class BlueTicker < Formula
-  desc "Japanese stock analysis CLI/MCP tool powered by EDINET"
+  desc "Japanese stock analysis CLI tool powered by EDINET"
   homepage "https://github.com/sollahiro/blue-ticker"
-  url "https://github.com/sollahiro/blue-ticker/releases/download/v26.5.6/blue-ticker-macos-arm64.tar.gz"
-  version "26.5.6"
-  sha256 "c63e5fbcdad9e365dbd2078d54c9b72f8d47304958516d449adf70d50a348d67" # Updated by CI
+  url "https://github.com/sollahiro/blue-ticker/releases/download/v26.5.7/blue-ticker-macos-arm64.tar.gz"
+  version "26.5.7"
+  sha256 "d68e7b613bee7e4ea7a3001778c48af661054ccfdbf5084ae2f06c307ef018e7" # Updated by CI
 
   def install
     bin.install "ticker"
